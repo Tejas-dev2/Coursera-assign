@@ -1,15 +1,11 @@
-#section1 {
-     background-color: aqua;
-     
- }
- 
-#section2 {
+#section1, #section2, #section3 {
      background-color: aqua;
 }
+   
 
-#section3 {
-     background-color: aqua;
-}
+     
+
+
 
 h4 {
     font-variant: copper black;
@@ -21,10 +17,16 @@ h4 {
 
 @media (min-width: 768px) and (max-width: 991px) {
    #section1 {
-    width: 50%;
+    width: 45%;
+    float: left;
+    
   }
   #section2 {
-    width: 50%;
+    width: 45%;
+    float: right;
+   }
+   #section3 {
+    width: 100%;
    }
 }
 
