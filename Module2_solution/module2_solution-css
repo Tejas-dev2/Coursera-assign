@@ -1,58 +1,88 @@
 #section1, #section2, #section3 {
-     background-color: aqua;
+     background-color: grey;
 }
    
-
-     
-
-
-
-h4 {
-    font-variant: copper black;
-    color: orange;
+#secrion1 h4 {
+  color: orange;
+  background-color: white;
 }
+ 
+#section2 h4 {
+  color: white;
+  background-color: green;
+  }
+
+#section3 h4 {
+  color: black;
+  background-color: red;
+}
+
+  
+   
+
 
 @media (min-width: 992px) {
    #section1,#section2,#section3{
     width: 31%;
-    height: 
-    margin: 5px;
+    height: 300px;
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
+    border: 3px solid black;
     
    }
    
+   #section1 {
+   float: left;
+   }
+   
+   #section2 {
+   float: left;
+   }
+   
+   #section3 {
+   float: right;
+   }
+}   
     
 
-}     
+
 
 @media (min-width: 768px) and (max-width: 991px) {
    #section1 {
     width: 40%;
     float: left;
     border: 3px solid black;
-    margin: 5px;
-    padding: 3px;
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
     
   }
   #section2 {
     width: 40%;
     float: right;
     border: 3px solid black;
-    margin: 5px;
-    padding: 3px;
+    margin: 15px;
+    padding: 0px 10px 10px 10px;
    }
    
    #section3 {
     width: 100%;
     border: 3px solid black;
     margin-top: 30px;
-    padding: 3px;
+    padding: 0px 10px 10px 10px;
    }
 }
 
 @media (max-width: 767px) {
+ #section1,#section2,#section3 {
+   width: 90%;
+   margin: 30px
+   border: 3px;
+   padding: 0px 10px 10px 10px;
+  }
+} 
 
 
-}
+
 
 
 
