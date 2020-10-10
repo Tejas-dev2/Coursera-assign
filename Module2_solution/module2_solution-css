@@ -1,5 +1,6 @@
 #section1 {
      background-color: aqua;
+     
  }
  
 #section2 {
@@ -11,8 +12,28 @@
 }
 
 h4 {
-font-variant: copper black;
+    font-variant: copper black;
 }
 
-      
+@media (min-width: 992px) {
+  
+}     
+
+@media (min-width: 768px) and (max-width: 991px) {
+   #section1 {
+    width: 50%;
+  }
+  #section2 {
+    width: 50%;
+   }
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+
+
+
 
